@@ -1,4 +1,4 @@
-html, body, header, main, footer, div, img, ul, li, a, p, h3, h4, form, label {
+html, body, header, main, footer, div, img, ul, li, a, p, h3, h4, form, label, span {
 	margin: 0;
 	padding: 0
 }
@@ -10,7 +10,7 @@ body {
 header {
 	position: relative;
 	width: 100%;
-	background-image: url('../images/building.jpeg');
+	background-image: url('../images/cave14.jpg');
 	background-repeat: no-repeat;
 	background-size: 100%;
 	height: 200px;
@@ -27,7 +27,7 @@ li {
 	text-align: center;
 	display: inline-block;
 	font-size: 16px;
-	font-weight: italic;
+	font-weight: bold;
 	margin: 10px;
 	padding: 10px;
 }
@@ -51,7 +51,7 @@ main {
 	background-color: #FFF;
 	height: 800px;
 }
-main h3 {
+h3 {
 	color: #FFF;
 	background-color: #0F0E0E;
 	opacity: 0.7;
@@ -59,22 +59,23 @@ main h3 {
 	font: "Fira Sans", sans-serif;
 	padding: 5px;
 	display: inline-block;
+	margin-top: 2px;
+	margin-left: 5px;
 }
-main h4 {
+h4 {
 	font-size: 20px;
 	color: #000;
 	opacity: 0.5;
 	padding: 5px;
 }
-main p, {
+/*main p, {
 	display: inline-block;
 	margin: 10px;
-	font-weight: italic;
-}
+}*/
 .text {
     width: 320px;
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 90px;
     margin-left: 5px;
 }
 .text2, .text3 {
@@ -95,6 +96,7 @@ main img {
     top: 200px
 }
 .cave {
+	margin-left: 5px;
 	width: 350px;
 	height: 300px
 }
@@ -105,7 +107,7 @@ main img {
 	width: 500px;
 	height: 300px;
 }
-.cave6, .cave7, .cave8, .cave9, .cave10 {
+.cave6, .cave7, .cave8, .cave9, .cave10, .cave11, .cave12, .cave13 {
 	margin-left: 5px;
 	height: 300px;
 	width: 350px;
@@ -117,11 +119,7 @@ main img {
 	height: 340px;
 	display: inline;
 }
-.pic2 {
-	width: 410px;
-	height: 340px;
-}
-.pic3 {
+.pic2, .pic3 {
 	width: 410px;
 	height: 340px;
 }
@@ -143,6 +141,7 @@ form p, span {
 span {
 	border-radius: 8px;
 	background-color: #ACA8A8;
+	display: inline-block;
 }
 footer {
 	width: 100%;
